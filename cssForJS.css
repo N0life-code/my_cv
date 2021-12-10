@@ -1,0 +1,8 @@
+.anim-nav{
+    background: black;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 90%;
+    opacity: 90%;
+    z-index: 3;
+}

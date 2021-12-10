@@ -1,0 +1,60 @@
+#myblock{
+    border: black 2px solid;
+    width: 30vw;
+    height: 80vh;
+    margin: 0px 0px 0px 45vw;
+    position: absolute;
+    bottom: -55vh;
+    z-index: 2;
+    background-color: #C8D6E5;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    opacity: 95%;
+    
+}
+.f_block {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+.f_block p{
+    border: red 2px solid;
+    border-radius: 2em;
+    width: 80vw;
+    position: relative;
+    z-index: 1;
+    height: 50vh;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+}
+.s_block{
+display: flex;
+justify-content: flex-end;
+
+}
+.s_block p{
+margin-top:20vh;
+text-align: center;
+font-size: 2em;
+}
+#my_menu{
+    margin: 0px 0px 0px 90%;
+    background-color: salmon;
+    width: 10%;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#my_menu a{
+    margin-top: 4em;
+    margin-left: 4em;
+}

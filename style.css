@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 90%;
+    height: 10vh;
+    background-color: black;
+    opacity: 90%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    width: 90%;
+}
+nav a{
+    margin-right: 30em;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    border: solid black 2px;
+    background-color: pink;
+} 
+section p {
+    background-color: green;
+    margin-right: 10%;
+}
+section div{
+    margin: 5vh 40vw 0px 5vw;
+    height: 80vh;
+    width: 60vw;
+    border: solid black 2px;
+    border-radius: 2em;
+    background-color: red;
+    text-align: left;
+    font-size: 4em;
+}
