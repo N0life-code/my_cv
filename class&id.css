@@ -1,25 +1,26 @@
 #myblock{
-    border: black 2px solid;
-    width: 30vw;
-    height: 80vh;
-    margin: 0px 0px 0px 45vw;
-    position: absolute;
-    bottom: -55vh;
-    z-index: 2;
-    background-color: #C8D6E5;
-    text-align: center;
-    font-size: 2em;
-    color: white;
-    opacity: 95%;
-    
+    width: 100vw;
+    color: black;
+    margin-bottom: 0px;
 }
-.f_block {
+#myblock h2{
+    border-bottom: 2px solid black;
+    background-color: slategrey;
+    height: 5vh;
+    margin-top: 0px; 
+}
+#myblock p{
+    background-color: #c7ecee;
+    border-radius: 5px;
+    margin: 0px 5%0px 5%;
+}
+/* .f_block {
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
-}
-.f_block p{
+} */
+/* .f_block p{
     border: red 2px solid;
     border-radius: 2em;
     width: 80vw;
@@ -31,24 +32,25 @@
     align-items: center;
     text-align: center;
     margin-top: 4em;
+} */
+.s_block h2{
+    border-bottom: 2px solid black;
+    background-color: slategrey;
+    height: 5vh;
+    margin-top: 0px; 
 }
-.s_block{
-display: flex;
-justify-content: flex-end;
 
-}
-.s_block p{
+/* .s_block p{
 margin-top:20vh;
 text-align: center;
 font-size: 2em;
-}
+} */
 #my_menu{
     margin: 0px 0px 0px 90%;
     background-color: salmon;
     width: 10%;
     height: 100vh;
     position: fixed;
-    z-index: 2;
     top: 0px;
     display: flex;
     justify-content: center;
@@ -58,3 +60,4 @@ font-size: 2em;
     margin-top: 4em;
     margin-left: 4em;
 }
+
